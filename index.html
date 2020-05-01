@@ -10,17 +10,167 @@
   <link href="https://cdn.jsdelivr.net/npm/vuetify@2.x/dist/vuetify.min.css" rel="stylesheet"> -->
   <script src="https://code.jquery.com/jquery-2.2.4.min.js" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" crossorigin="anonymous"></script>
   <!-- <link rel="stylesheet" href="./style.css"> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
   <link rel="stylesheet" href="./s1.css">
 </head>
 <body>
   <div id="app">
     <section class="user-newspage-postit-section">
       <p style="font-size:30px;">便利貼留言板</p>
-      <v-row >
-          <textarea>This is a sticky note you can type and edit.</textarea>
 
-          <div id="create">+</div>          
-      </v-row>
+      <div style="width:100%; display: flex; flex-direction: row; justify-content: center;">
+          <textarea style="width: 50%; background: #F5F5F5;">
+任務1：該季風格定調（一季/3個月）
+所屬列表名稱：Tech a break 總企劃
+負責人：俞帆/昀妮/孟涵
+工期：2天
+              </textarea>
+      </div>
+
+      <div style="width:100%; display: flex; flex-direction: row; justify-content: center;">
+          <textarea style="width: 50%; background: #F5F5F5;">
+任務2：該季來賓人選定案（一季/3-4位來賓）
+所屬列表名稱：Tech a break 總企劃
+負責人：俞帆/昀妮/孟涵
+工期：5天 
+              </textarea>
+      </div>
+
+      <div class="m3" style="width:100%; display: flex; flex-direction: row; justify-content: center;">
+          <i style="font-size:22px;" class="fas fa-life-ring"></i>
+          <textarea >
+
+任務3-1：寄發邀請函（一季/3-4位來賓）
+所屬列表名稱：活動執行_checklist_寄發邀請函
+負責人：俞帆/昀妮/孟涵
+工期：2天
+          </textarea>
+          
+          <i style="font-size:22px;" class="fas fa-life-ring"></i>
+          <textarea >
+
+任務3-2：講者資料蒐集與研究（一季/3-4位來賓）
+所屬列表名稱：活動執行_checklist_講者資料蒐集與研究
+負責人：俞帆/昀妮/孟涵
+工期：4天
+</textarea>
+
+          <i style="font-size:22px;" class="fas fa-life-ring"></i>
+          <textarea >
+
+任務3-3：訪綱撰寫（一季/3-4位來賓）
+所屬列表名稱：活動執行_checklist_講者資料蒐集與研究
+負責人：俞帆/昀妮/孟涵
+工期：4天
+</textarea>
+
+<i style="font-size:22px;" class="fas fa-life-ring"></i>
+<textarea >
+
+任務3-2：確認執行日期及執行地點（一季/3-4位來賓）
+所屬列表名稱：活動執行_checklist_確認執行日期及執行地點
+負責人：俞帆/昀妮/孟涵
+工期：5天
+    </textarea>
+      </div>
+
+    <div class="m4" style="width:100%; display: flex; flex-direction: row; justify-content: center;">
+        <i style="font-size:22px;" class="fas fa-life-ring"></i>
+        <textarea >
+          
+任務4-1：場地借用
+所屬列表名稱：活動執行_checklist_場地借用
+負責人：俞帆/昀妮/孟涵
+工期：1天
+        </textarea>
+        
+        <i style="font-size:22px;" class="fas fa-life-ring"></i>
+        <textarea>
+
+任務4-2：器材準備及測試
+所屬列表名稱：活動執行_checklist_場地借用
+負責人：俞帆/昀妮/孟涵（當周主持人）
+工期：1天
+        </textarea>
+    </div>
+
+      <div style="width:100%; display: flex; flex-direction: row; justify-content: center;">
+          <i style="font-size:22px;" class="fas fa-life-ring"></i>
+          <textarea style="width: 50%;">
+
+任務5：節目錄製
+所屬列表名稱：活動執行_checklist_節目錄製
+負責人：俞帆/昀妮/孟涵
+工期：1天（2 hrs）
+              </textarea>
+      </div>
+
+      <div style="width:100%; display: flex; flex-direction: row; justify-content: center;">
+          <textarea style="width: 50%;">
+任務6-1：剪輯音檔
+所屬列表名稱：活動執行_checklist_節目錄製
+負責人：于仙
+工期：2天（5 hrs）
+              </textarea>
+
+          <textarea style="width: 50%;">
+任務6-2：Cover繪製/美編素材製作
+所屬列表名稱：活動執行_checklist_ Cover繪製/美編素材製作
+負責人：之閑
+工期：1天（3.5 hrs）
+          </textarea>
+      </div>
+
+      <div style="width:100%; display: flex; flex-direction: row; justify-content: center;">
+          <textarea style="width: 50%;">
+任務7-1：Timecode資訊撰寫
+所屬列表名稱：活動執行_checklist _Timecode資訊撰寫
+負責人：于仙/之閑
+工期：1天（1 hrs） 
+              </textarea>
+
+          <textarea style="width: 50%;">
+任務7-2：錄製文章產出
+所屬列表名稱：活動執行_checklist_錄製文章產出
+負責人：于仙/之閑
+工期：2天       
+          </textarea>
+      </div>
+
+      <div style="width:100%; display: flex; flex-direction: row; justify-content: center;">
+          <i style="font-size:22px;" class="fas fa-life-ring"></i>
+          <textarea style="width: 50%;">
+
+任務8：節目上架（Anchor/Youtube/Soundcloud)
+所屬列表名稱：活動執行_checklist_節目上架（Anchor/Youtube/Soundcloud)
+負責人：孟涵
+工期：1天（5 hrs）              
+              </textarea>
+      </div>
+
+      <div class="m3" style="width:100%; display: flex; flex-direction: row; justify-content: center">
+          <textarea style="background: #BBDEFB;">
+任務9-1：事後寄發感謝函（需含節目連結）
+所屬列表名稱：活動執行_checklist_事後寄發感謝函（需含節目連結）
+負責人：俞帆/昀妮/孟涵
+工期：1天（1 hrs）              
+          </textarea>
+
+          <textarea style="background: #BBDEFB;">
+任務9-2：Tech a Break臉書宣傳露出
+所屬列表名稱：活動執行_checklist _臉書宣傳露出
+負責人：之閑
+工期：1天        
+</textarea>
+
+          <textarea style="background: #BBDEFB;">
+任務9-3：Tech a Break電子報寄送
+所屬列表名稱：活動執行_checklist _電子報寄送
+負責人：昀妮/信錩
+工期：1天           
+</textarea>
+      </div>
+
     </section>
   </div>
 
