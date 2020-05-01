@@ -1,0 +1,59 @@
+.user-newspage-postit-section {
+  padding: 30px;
+  height: calc(100vh - 70px);
+  overflow: auto;
+}
+
+.user-newspage-postit-section #create-post-it,.post-it{
+  float: left; 
+  padding: 25px 25px 40px;
+  margin-bottom: 15px;
+  margin: 0 20px 20px 0;
+  width: 250px;
+  height: 250px; 
+}
+
+  
+
+#create-post-it {
+  font-size: 30px;
+  user-select: none;
+  padding: 20px; 
+  border-radius: 20px;
+  text-align: center; 
+  border: 15px solid rgba(0,0,0,0.1); 
+  cursor: pointer;
+  color: rgba(0,0,0,0.1);
+  line-height: 185px;
+}
+
+
+#create-post-it:hover {
+  border-color:rgba(0,0,0,0.2);
+  color:rgba(0,0,0,0.2);
+}
+
+
+
+.post-it {
+  line-height: 1.5;
+  border: 0;
+  border-radius: 3px;
+  background: linear-gradient(#F9EFAF, #F7E98D);
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+  overflow: auto;
+  transition: box-shadow 0.5s ease;
+  font-smoothing: subpixel-antialiased;
+  max-width: 520px;
+  max-height: 250px;
+}
+
+.post-it:hover {
+  box-shadow:0 5px 8px rgba(0,0,0,0.15);
+}
+
+
+
+.post-it:focus {
+  box-shadow:0 5px 12px rgba(0,0,0,0.2); outline:none;
+}
