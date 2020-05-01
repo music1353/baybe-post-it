@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah);
+/* @import url(https://fonts.googleapis.com/css?family=Gloria+Hallelujah); */
 
 * { box-sizing:border-box; }
 
@@ -32,7 +32,7 @@
 #create:hover { border-color:rgba(0,0,0,0.2); color:rgba(0,0,0,0.2); }
 
 textarea {
-  font:20px 'Gloria Hallelujah', cursive; 
+  font: 15px 'Gloria Hallelujah', cursive; 
   line-height:1.5;
   border:0;
   border-radius:3px;
